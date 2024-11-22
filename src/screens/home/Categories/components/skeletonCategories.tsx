@@ -1,6 +1,6 @@
 import React from "react";
-import Colors from "../../../../../Utils/Colors";
 import ContentLoader, {Circle} from "react-content-loader/native";
+import Colors from "../../../../Utils/Colors";
 
 export default function SkeletonCategories() {
     return (

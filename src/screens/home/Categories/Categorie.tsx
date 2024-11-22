@@ -1,10 +1,10 @@
 import { useNavigation } from "@react-navigation/native";
 import React from "react";
 import { Image, Text, TouchableOpacity, View } from "react-native";
-import Heading from "../../../../components/Heading/Heading";
 import SkeletonCategories from "./components/skeletonCategories";
 import { useCategories } from "./hooks/useCategories";
 import { styles } from "./styles";
+import Heading from "../../../components/Heading/Heading";
 
 interface Category {
   id: string;

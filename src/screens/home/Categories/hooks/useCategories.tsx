@@ -1,5 +1,5 @@
 import { useQuery } from "@tanstack/react-query";
-import GlobalApi from "../../../../../Utils/GlobalApi";
+import GlobalApi from "../../../../Utils/GlobalApi";
 
 export function useCategories() {
   return useQuery({

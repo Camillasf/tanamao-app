@@ -1,9 +1,11 @@
 import React, { useEffect, useRef, useState } from "react";
 import { FlatList, Image, View } from "react-native";
-import Heading from "../../../../components/Heading/Heading";
+
 import SkeletonSlider from "./components/skeletonSlider";
 import { useSlider } from "./hooks/userSlider";
+import Heading from "../../../components/Heading/Heading";
 import { styles } from "./styles";
+
 
 export default function Slider() {
   const { data } = useSlider();

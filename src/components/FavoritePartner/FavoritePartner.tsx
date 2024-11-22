@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { TouchableOpacity } from "react-native";
 import Colors from "../../Utils/Colors";
 import { useFavorite } from "./hook/useFavorite";
-import { styles } from "./styles";
+import { styles } from "./stiles";
 
 export default function FavoritePartner(partnerId: any) {
   const [favorited, setFavorited] = useState(false);

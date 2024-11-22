@@ -1,9 +1,9 @@
 import { ScrollView, Text, View } from "react-native";
 import HeaderComponent from "../../components/header";
 import SpinnerComponent from "../../components/spinner";
-import PartnerListItemSmall from "../home/components/PartnerList/PartnerListItemSmall";
-import { useCategoryById } from "./hook/useCategoryById";
 import { styles } from "./styles";
+import { useCategoryById } from "./hook/useCategoryByld";
+import PartnerListItemSmall from "../home/PartnerList/PartnerListltemSmall";
 
 export default function CategoryScreen({ route }: any) {
   const categoryId = route.params.category;
