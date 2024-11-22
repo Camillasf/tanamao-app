@@ -2,9 +2,9 @@ import { useAuth, useUser } from "@clerk/clerk-expo";
 import { Ionicons } from "@expo/vector-icons";
 import { useNavigation } from "@react-navigation/native";
 import { FlatList, Image, Text, TouchableOpacity, View } from "react-native";
+import ContainerDefaultInternoComponent from "../../components/containerDefaultInterno";
 import Colors from "../../Utils/Colors";
 import { styles } from "./styles";
-import ContainerDefaultInternoComponent from "../../components/containerDefautInterno";
 
 export default function ProfileScreen() {
   const { isLoaded, signOut } = useAuth();

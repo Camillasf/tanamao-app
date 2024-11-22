@@ -1,15 +1,15 @@
 import { useUser } from "@clerk/clerk-expo";
 import { useEffect } from "react";
 import { ScrollView } from "react-native";
+import ContainerDefaultInternoComponent from "../../components/containerDefaultInterno";
 import HorizontalLine from "../../components/HorizontalLine/HorizontalLine";
 import Colors from "../../Utils/Colors";
-import { useGetCustomer } from "./Header/hooks/useGetCustumer";
-import { useCustomer } from "./Header/hooks/useCustumer";
-import Header from "./Header/Header";
-import ContainerDefaultInternoComponent from "../../components/containerDefautInterno";
-import Slider from "./Slider/Slider";
-import Categories from "./Categories/Categorie";
-import PartnerList from "./PartnerList/PartnerList";
+import Categories from "./components/Categories/Categories";
+import Header from "./components/Header/Header";
+import { useCustomer } from "./components/Header/hooks/useCustomer";
+import { useGetCustomer } from "./components/Header/hooks/useGetCustomer";
+import PartnerList from "./components/PartnerList/PartnerList";
+import Slider from "./components/Slider/Slider";
 
 export default function HomeScreen() {
   const { user } = useUser();

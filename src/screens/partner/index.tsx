@@ -10,8 +10,8 @@ import {
 import CategoryBadge from "../../components/CategoryBadge/CategoryBadge";
 import HorizontalLine from "../../components/HorizontalLine/HorizontalLine";
 import Rate from "../../components/Rate";
+import { useGetPartnerById } from "./hooks/usePartnerById";
 import { styles } from "./styles";
-import { useGetPartnerById } from "./hooks/usePartnerbyld";
 
 export default function PartnerScreen({ route }: any) {
   const partnerId = route.params.partner;

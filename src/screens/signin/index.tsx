@@ -3,8 +3,8 @@ import * as WebBrowser from "expo-web-browser";
 import React, { useCallback, useEffect, useRef, useState } from "react";
 import { Image, Text, TouchableOpacity, View } from "react-native";
 import ContainerDefaultComponent from "../../components/containerDefault";
+import { useWarmUpBrowser } from "../../hooks/useWarmUpBrowser";
 import { styles } from "./styles";
-import { useWarmUpBrowser } from "../../hook";
 
 WebBrowser.maybeCompleteAuthSession();
 
