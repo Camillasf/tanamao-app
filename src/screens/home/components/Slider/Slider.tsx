@@ -28,7 +28,6 @@ export default function Slider() {
     if (flatListRef.current && data?.length > 0) {
       flatListRef.current.scrollToIndex({
         index: currentIndex,
-        animated: true,
       });
     }
   }, [currentIndex, data]);
